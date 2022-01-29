@@ -1,10 +1,6 @@
 <?php
 require "koneksi.php";
-$temp2       = 'localhost/belajardatabase/belajarke3/tambah.php?';
 $temp       = '';
-// for ($i=0; $i<count($header); $i++){
-//     $temp= $temp. '' .$header[$i];
-// }
 
 $temp_arr =[];
 
@@ -78,34 +74,7 @@ if (isset($_POST["submit"])){
     
 
 
-// $nama= [$temp_arr[0]["value"]];
-//     foreach ($nama as $name){
-        
-//     }
-//     var_dump($name);
-// $nik= [$temp_arr[1]['value']];
-//     foreach($nik as $NIK){
 
-//     }
-//     var_dump($NIK);
-// $notlp= [$temp_arr[2]['value']];
-//     foreach($notlp as $NOTLP){
-
-//     }
-//     var_dump($NOTLP);
-// $email= [$temp_arr[3]['value']];
-//     foreach($email as $EMAIL){
-
-//     }
-//     var_dump($EMAIL);
-// $foto=[$temp_arr[4]['value']];
-//     foreach($foto as $FOTO){
-
-//     }
-//     var_dump($FOTO);
-//     $sql = "INSERT INTO karyawan VALUES
-//     (' ', '$name', '$NIK', '$NOTLP', '$EMAIL', '$FOTO')";
-//     mysqli_query($conn, $sql);
 $has_error = false;
 for ($i=0; $i < count($temp_arr) ; $i++) { 
     # code...

@@ -81,13 +81,7 @@ require 'koneksi.php';
 <li>
     <a href= "index.php">Back</a>
 </li>
-<?php
 
-if (empty($_GET["error_nama"])){
-    echo "ada";
-}
-
-?>
     </form>
     
 </html>

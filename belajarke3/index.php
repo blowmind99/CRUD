@@ -34,8 +34,8 @@ require 'koneksi.php';
             <td><?php echo $row["email"]; ?> </td>
             <td><?php echo $row["foto"]; ?> </td>
             <td>
-                <a href ="update.php?id= <?php echo $row["id"];?>">Ubah</a>
-                <a href= "hapus.php?id= <?php echo $row["id"]; ?>" onclick="
+                <a href ="update.php?id=<?php echo $row["id"];?>">Ubah</a>
+                <a href= "hapus.php?id=<?php echo $row["id"]; ?>" onclick="
             return confirm ('Are You Sure?')"; >Delete</a>
             </td>
         </tr>
